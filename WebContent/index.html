@@ -1,0 +1,56 @@
+ <Html>  
+<head>   
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body bgcolor="Lightskyblue">  
+<br>  
+<br>  
+<form action="SaveServlet" method="post"> 
+
+ 
+  
+<label> Name </label>         
+<input type="text" name="name" size="15"/> <br> <br>  
+
+  
+<label>   
+Country :  
+</label>   
+<select name="country">  
+<option value="INDIA">INDIA</option>  
+<option value="USA">USA</option>  
+<option value="UK">UK</option>  
+<option value="AUSTRALIA">AUSTRALIA</option>  
+<option value="CANADA">CANADA</option>  
+<option value="PAKISTAN">PAKISTAN</option>  
+</select>  
+  
+<br>  
+<br>  
+<label>   
+Gender :  
+</label>  <br><br>
+<select name="gender">
+<option>Male</option>
+<option>Female</option>
+</select>  
+<br>  
+<br>
+ 
+<label>   
+Phone :  
+</label>  
+<input type="text" name="phone" size="10"/> <br> <br>  
+
+<label> Password </label>         
+<input type="password" name="password" size="15"/>
+<br> <br>
+
+<input type="submit" value="Save Employee"/>
+</form>  
+
+<a href="ViewServlet">View Employee</a>
+</body>  
+</html>  
